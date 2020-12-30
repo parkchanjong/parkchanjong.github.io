@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>chanjong</title>
-    <meta charset="utf-8" />
+    <title>jungleMan</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="shortcut icon" href="./public/favicon.ico" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
     <!--구글 분석-->
     <script
@@ -22,10 +29,127 @@
     <!--구글 분석-->
   </head>
 
-  <body>
-    <div class="js-clock">
-      <h3>00:00</h3>
-      <div class="js-weather"></div>
+  <body class="before-load">
+    <div class="loading">
+      <svg class="loading-circle">
+        <circle cx="50%" cy="50%" r="25"></circle>
+      </svg>
+    </div>
+    <div class="container">
+      <nav class="global-nav">
+        <div class="global-nav-links">
+          <a href="#" class="global-nav-item">메뉴</a>
+          <a href="#" class="global-nav-item">메뉴</a>
+          <a href="#" class="global-nav-item">메뉴</a>
+          <a href="#" class="global-nav-item">메뉴</a>
+        </div>
+      </nav>
+      <nav class="local-nav">
+        <div class="local-nav-links">
+          <a href="#" class="product-name">jungle</a>
+          <a href="#">소메뉴</a>
+          <a href="#">소메뉴</a>
+          <a href="#">소메뉴</a>
+        </div>
+      </nav>
+      <section class="scroll-section" id="scroll-section-0">
+        <h1>jungle</h1>
+        <div class="sticky-elem sticky-elem-canvas">
+          <canvas id="video-canvas-0" width="1920" height="1080"></canvas>
+        </div>
+        <div class="sticky-elem main-message a">
+          <p>설명 설명 설명<br />설명 설명 설명</p>
+        </div>
+        <div class="sticky-elem main-message b">
+          <p>설명 설명 설명<br />설명 설명 설명</p>
+        </div>
+        <div class="sticky-elem main-message c">
+          <p>설명 설명 설명<br />설명 설명 설명</p>
+        </div>
+        <div class="sticky-elem main-message d">
+          <p>설명 설명 설명<br />설명 설명 설명</p>
+        </div>
+      </section>
+      <section class="scroll-section" id="scroll-section-1">
+        <p class="description">
+          <strong>글 제목</strong>
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 .
+        </p>
+      </section>
+      <section class="scroll-section" id="scroll-section-2">
+        <div class="sticky-elem sticky-elem-canvas">
+          <canvas id="video-canvas-1" width="1920" height="1080"></canvas>
+        </div>
+        <div class="sticky-elem main-message a">
+          <p>
+            <small>소개</small>
+            저쩌궁
+          </p>
+        </div>
+        <div class="sticky-elem desc-message b">
+          <p>
+            백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+            동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+            백두산이 .
+          </p>
+          <div class="pin"></div>
+        </div>
+        <div class="sticky-elem desc-message c">
+          <p>헤헤메레레,<br />히히히히히</p>
+          <div class="pin"></div>
+        </div>
+      </section>
+      <section class="scroll-section" id="scroll-section-3">
+        <p class="mid-message">
+          <strong>제목</strong><br />
+          헤헤헿<br />
+          히히히히히히히.
+        </p>
+        <canvas class="image-blend-canvas" width="1920" height="1080"></canvas>
+        <p class="canvas-caption">
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 동해물과 백두산이 동해물과 백두산이 동해물과 백두산이
+          동해물과 백두산이 동해물과 백두산이 동해물과 백두산이 동해물과
+          백두산이 .
+        </p>
+      </section>
+      <footer class="footer">
+        <div class="js-clock">
+          <h3>00:00</h3>
+          <div class="js-weather"></div>
+        </div>
+      </footer>
     </div>
 
     <!--채팅-->
@@ -44,5 +168,6 @@
     </script>
     <script src="./js/clock.js"></script>
     <script src="./js/weather.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
