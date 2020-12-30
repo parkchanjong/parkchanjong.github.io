@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>chanjong</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="./public/favicon.ico" />
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <!--구글 분석-->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-139426187-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-139426187-1");
+    </script>
+    <!--구글 분석-->
+  </head>
+
+  <body>
+    <div class="js-clock">
+      <h3>00:00</h3>
+      <div class="js-weather"></div>
+    </div>
+
+    <!--채팅-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/5cc9172b2846b90c57ac4b65/default";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/weather.js"></script>
+  </body>
+</html>
