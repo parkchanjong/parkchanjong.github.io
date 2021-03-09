@@ -15,7 +15,7 @@
 
     <!--구글 분석-->
     <script
-      async
+      defer
       src="https://www.googletagmanager.com/gtag/js?id=UA-139426187-1"
     ></script>
     <script>
@@ -27,6 +27,24 @@
       gtag("config", "UA-139426187-1");
     </script>
     <!--구글 분석-->
+
+    <!--채팅-->
+    <script defer type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/5cc9172b2846b90c57ac4b65/default";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <script defer src="./js/clock.js"></script>
+    <script defer src="./js/weather.js"></script>
+    <script defer src="js/main.js"></script>
   </head>
 
   <body class="before-load">
@@ -151,23 +169,5 @@
         </div>
       </footer>
     </div>
-
-    <!--채팅-->
-    <script type="text/javascript">
-      var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-      (function () {
-        var s1 = document.createElement("script"),
-          s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = "https://embed.tawk.to/5cc9172b2846b90c57ac4b65/default";
-        s1.charset = "UTF-8";
-        s1.setAttribute("crossorigin", "*");
-        s0.parentNode.insertBefore(s1, s0);
-      })();
-    </script>
-    <script src="./js/clock.js"></script>
-    <script src="./js/weather.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>
