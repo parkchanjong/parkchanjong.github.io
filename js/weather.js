@@ -1,3 +1,5 @@
+"use strict";
+
 const weather = document.querySelector(".js-weather");
 
 const API_KEY = "3c74c81731ffabbe5f3633deb435b017";

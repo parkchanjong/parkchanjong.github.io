@@ -1,5 +1,5 @@
-var path = require("path");
-var HtmlWebpackPlugin = require("html-webpack-plugin");
+let path = require("path");
+let HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "none",
